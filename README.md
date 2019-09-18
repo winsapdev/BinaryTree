@@ -20,11 +20,17 @@ python main.py 5,3,6,8,7,2,9
 ```
 
 ### Supported Method
-`add_node(number)` : add new node to the tree 
+`add_node(number)` : add new node to the tree
+
 `inorder(root)` : inorder traversal 
+
 `preorder(root)` : preorder traversal 
+
 `postorder(root)` : postorder traversal 
+
 `leaf_count(root)` : get leaf count from the tree 
+
 `max_depth(root)` : height of the tree (max level of the tree is height-1)
+
 
 
