@@ -7,18 +7,18 @@ if __name__ == '__main__':
 	bt = BinaryTree()
 	data = list(sys.argv[1].split(","))
 	for i in data:
-		bt.add_node(i);
+		bt.add_node(i)
 	
 
-	print("tree dari kiri ke inorder: ")
+	print("inorder: ")
 	bt.inorder(bt.root)	
 	print("")
 	print("")
-	print("tree dari kiri ke preorder: ")
+	print("preorder: ")
 	bt.preorder(bt.root)	
 	print("")
 	print("")
-	print("tree dari kiri ke postorder: ")
+	print("postorder: ")
 	bt.postorder(bt.root)	
 	print("")
 	print("")

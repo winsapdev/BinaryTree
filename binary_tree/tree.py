@@ -25,7 +25,7 @@ class BinaryTree():
 			self.insert_node(self.root, Node(node))
 
 	def insert_node(self, parent, node):
-		if parent.get_value() > node.get_value():
+		if int(parent.get_value()) > int(node.get_value()):
 			if parent.left is None:
 				parent.left = node
 			else:
